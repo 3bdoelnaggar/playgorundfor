@@ -24,7 +24,7 @@ internal class ValidatorKtTest {
 
     @Test
     fun emptyEmail_returnFalse() {
-        val email = "abdalla@abdalla.com"
+        val email = ""
         assert(!email.isValidEmail())
     }
 
